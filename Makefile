@@ -4,7 +4,7 @@ env:
 	docker-compose build
 
 build:
-	docker-compose run android-build-libwebsockets
+	docker-compose run arm-android-build-libwebsockets
 
 dist:
 	rm -rf dist/*
