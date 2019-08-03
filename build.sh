@@ -27,10 +27,10 @@ cmake \
   -DLWS_WITHOUT_TESTAPPS=ON \
   -DLWS_WITH_SSL=OFF \
   -DLWS_WITH_LIBUV=ON \
-  -DLWS_ZLIB_LIBRARIES="$CWD/thirdparty/zlib/arm64/lib/libz.a" \
-  -DLWS_ZLIB_INCLUDE_DIRS="$CWD/thirdparty/zlib/arm64/include" \
-  -DLWS_LIBUV_LIBRARIES="$CWD/thirdparty/libuv/arm64/lib/libuv.a" \
-  -DLWS_LIBUV_INCLUDE_DIRS="$CWD/thirdparty/libuv/arm64/include/libuv" \
+  -DLWS_ZLIB_LIBRARIES="$CWD/thirdparty/zlib/arm/lib/libz.a" \
+  -DLWS_ZLIB_INCLUDE_DIRS="$CWD/thirdparty/zlib/arm/include" \
+  -DLWS_LIBUV_LIBRARIES="$CWD/thirdparty/libuv/arm/lib/libuv.a" \
+  -DLWS_LIBUV_INCLUDE_DIRS="$CWD/thirdparty/libuv/arm/include/libuv" \
   -DCMAKE_BUILD_TYPE=Debug \
   ..
 make
