@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-LWS_VERSION=3.0.0
+LWS_VERSION=3.0.1
 
 CWD=$PWD
 mkdir -p $CWD/build
